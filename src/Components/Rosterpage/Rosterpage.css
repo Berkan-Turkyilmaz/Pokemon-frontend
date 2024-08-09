@@ -1,0 +1,61 @@
+.roster-container {
+    display: flex;
+    height: 100vh; /* Tüm ekran yüksekliği */
+    background-color: #f4f4f4; /* Genel arka plan rengi */
+  }
+  
+  /* Sol Taraf - Kullanıcı Bilgileri */
+  .roster-left {
+    flex: 1;
+    background-color: #e0e0e0; /* Sol taraf arka plan rengi */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 300px; /* Profil resim genişliği */
+    height: 300px; /* Profil resim yüksekliği */
+    border-radius: 50%; /* Yuvarlak profil resmi */
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Resim gölgesi */
+  }
+  
+  .user-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .user-info p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Sağ Taraf - Buton */
+  .roster-right {
+    flex: 1;
+    background-color: #d4d4d4; /* Sağ taraf arka plan rengi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .daily-pokemon-button {
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50; /* Buton rengi */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .daily-pokemon-button:hover {
+    background-color: #45a049; /* Buton hover rengi */
+  }

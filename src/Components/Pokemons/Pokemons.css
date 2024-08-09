@@ -1,0 +1,69 @@
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2f2f2; /* Genel arka plan rengi */
+  }
+  
+  /* Pokémon Kart Stili */
+  .pokemon-card {
+    border: 2px solid #d1d1d1; /* Kart kenar rengi */
+    border-radius: 15px; /* Köşe yuvarlatma */
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* Kartın arka plan rengi */
+    width: 200px; /* Kart genişliği */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    transition: transform 0.3s ease-in-out; /* Hover efekti için geçiş */
+  }
+  
+  /* Pokémon Resim Stili */
+  .pokemon-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Yuvarlak köşeler */
+    background-color: #f0f0f0; /* Resim arka plan rengi */
+    padding: 10px; /* Padding için alan */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Resim gölgesi */
+  }
+  
+  /* Pokémon İsmi Stili */
+  .pokemon-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333; /* İsmin rengi */
+  }
+  
+  /* Pokémon İstatistikleri Stili */
+  .pokemon-stats {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Her Statın Ayrı Stili */
+  .pokemon-stats p {
+    margin: 5px 0;
+    font-weight: bold; /* Stat metni kalın */
+    background-color: #f9f9f9; /* Stat arka plan rengi */
+    border-radius: 5px; /* Köşe yuvarlatma */
+    padding: 5px; /* Padding */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  }
+  
+  /* Hover Efekti */
+  .pokemon-card:hover {
+    transform: scale(1.05); /* Hoverda kartın büyümesi */
+  }
+  
+  /* Loading Stili */
+  .loading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+  }

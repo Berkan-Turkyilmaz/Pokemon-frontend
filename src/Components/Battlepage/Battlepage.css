@@ -1,0 +1,91 @@
+.battlepage-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Pokémon'ları ve butonu üst kısmına hizala */
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .poke-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px; /* Pokémon kutularını ekranın üst kısmına kaydır */
+  }
+  
+  .pokemon-card {
+    background-color: #e3e3e3;
+    padding: 20px; /* Pokémon kartlarını büyüt */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pokemon-image {
+    width: 120px; /* Pokémon resimlerini büyüt */
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .pokemon-name {
+    font-size: 1.5em; /* Pokémon isimlerini büyüt */
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .pokemon-stats p {
+    margin: 7px 0; /* Pokémon statlarını biraz daha belirgin yap */
+    color: #333;
+  }
+  
+  .poke-container h2, 
+  .poke-container .hp {
+    margin-bottom: 15px; /* Başlık ve HP'nin arasını aç */
+    font-size: 1.6em; /* Başlık ve HP yazılarını büyüt */
+    font-weight: bold;
+    color: #d32f2f;
+  }
+  
+  .start-battle-container {
+    position: absolute;
+    top: 20%; /* Butonu ekranın biraz üst kısmına kaydır */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .start-battle-button {
+    padding: 20px 40px; /* Butonun boyutunu büyüt */
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-battle-button:hover {
+    background-color: #b71c1c;
+  }
+  
+  .report-container {
+    
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
